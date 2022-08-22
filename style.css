@@ -127,9 +127,18 @@ width: 100%;
 }
 @media  (max-width: 320px) {
     .price {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 20px;
+    }
+    .discount-price {
+    margin-bottom: 0;
+    }
+    .original-price {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 0;
     }
     }
 </style>
