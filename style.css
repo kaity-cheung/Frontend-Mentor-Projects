@@ -1,8 +1,5 @@
-<style>
-
-body {
+body { 
   background-color: hsl(30, 38%, 92%);
- 
 }
 main {
   min-height: 100vh;
@@ -17,9 +14,7 @@ justify-content: center;
   border-radius: 3%;
   width: 600px;
   height:auto;
-  margin: 0 auto;
- 
- 
+  margin: 0 auto; 
 }
 .left {
   width: 50%;
@@ -89,16 +84,6 @@ button {
   padding: 10px 0;
    vertical-align: middle;
 }
-.attribution  { 
-    font-size: 11px; 
-    text-align: center;  
-    font-family: 'Montserrat', sans-serif;
-  text-align: center;
-  }
-  .attribution a { 
-    color: hsl(228, 45%, 44%);   
-    font-family: 'Montserrat', sans-serif;
-  }
 @media screen and (max-width: 600px) {
 .container {
 flex-direction: column;
@@ -142,4 +127,3 @@ width: 100%;
     padding-left: 0;
     }
     }
-</style>
