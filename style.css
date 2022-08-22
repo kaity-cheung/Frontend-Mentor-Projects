@@ -125,4 +125,11 @@ width: 100%;
   padding: 0 30px 20px 30px;
 }
 }
+@media  (max-width: 320px) {
+    .price {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    }
 </style>
