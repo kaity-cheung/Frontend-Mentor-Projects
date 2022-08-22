@@ -1,13 +1,5 @@
 <style>
-.attribution { 
-  font-size: 11px; 
-  text-align: center;  
-  font-family: 'Montserrat', sans-serif;
-}
-.attribution a { 
-  color: hsl(228, 45%, 44%);   
-  font-family: 'Montserrat', sans-serif;
-}
+
 body {
   background-color: hsl(30, 38%, 92%);
  
@@ -97,6 +89,16 @@ button {
   padding: 10px 0;
    vertical-align: middle;
 }
+.attribution  { 
+    font-size: 11px; 
+    text-align: center;  
+    font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  }
+  .attribution a { 
+    color: hsl(228, 45%, 44%);   
+    font-family: 'Montserrat', sans-serif;
+  }
 @media screen and (max-width: 600px) {
 .container {
 flex-direction: column;
