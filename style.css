@@ -84,6 +84,9 @@ button {
   padding: 10px 0;
    vertical-align: middle;
 }
+.attribution { font-size: 11px; text-align: center;  font-family: 'Montserrat', serif; }
+.attribution a { color: hsl(228, 45%, 44%);   font-family: 'Montserrat', serif;}
+
 @media screen and (max-width: 600px) {
 .container {
 flex-direction: column;
